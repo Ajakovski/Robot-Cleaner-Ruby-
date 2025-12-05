@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL4csR_JxO4"
-#define BLYNK_TEMPLATE_NAME "robot trash car"
-#define BLYNK_AUTH_TOKEN "7v02H1jqgrVatBHLYLqPoEySxSjxQtV1"
+#define BLYNK_TEMPLATE_ID "YOUR TEMPLATE ID"
+#define BLYNK_TEMPLATE_NAME "YOUR TEMPLATE NAME"
+#define BLYNK_AUTH_TOKEN "YOUR BLYNK AUTH TOKEN"
 
 #define BLYNK_PRINT Serial
 #include <Servo.h> 
@@ -9,8 +9,8 @@
 #include <BlynkSimpleShieldEsp8266.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "iPhone15";
-char pass[] = "Krcibauwau";
+char ssid[] = "YOUR WIFI";
+char pass[] = "YOUR WIFI PASSWORD";
 
 Servo smallServo;
 Servo mainServo;
